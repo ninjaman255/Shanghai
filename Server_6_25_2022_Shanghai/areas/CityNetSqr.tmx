@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="isometric" renderorder="right-down" compressionlevel="0" width="24" height="24" tilewidth="64" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="55">
+ <properties>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/custom/backgrounds/CityNet/BG.animation"/>
+  <property name="Background Texture" value="/server/assets/custom/backgrounds/CityNet/BG.png"/>
+  <property name="Background Vel X" type="float" value="0.1"/>
+  <property name="Background Vel Y" type="float" value="0"/>
+  <property name="Name" value="Net Area Sqr"/>
+  <property name="Song" value="/server/assets/music/shanghai exe OST internet.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/floor.tsx"/>
+ <tileset firstgid="4" source="../assets/tiles/warp.tsx"/>
+ <tileset firstgid="10" source="../assets/tiles/hp_warp.tsx"/>
+ <tileset firstgid="15" source="../assets/tiles/home_warp.tsx"/>
+ <tileset firstgid="20" source="../assets/tiles/tree.tsx"/>
+ <tileset firstgid="24" source="../assets/tiles/coffee.tsx"/>
+ <tileset firstgid="28" source="../assets/tiles/gate.tsx"/>
+ <tileset firstgid="33" source="../assets/tiles/cloud.tsx"/>
+ <tileset firstgid="45" source="../assets/tiles/cityNet1f1.tsx"/>
+ <tileset firstgid="46" source="../assets/tiles/cityNet3f1.tsx"/>
+ <tileset firstgid="47" source="../assets/tiles/cityNetSquare1.tsx"/>
+ <tileset firstgid="48" source="../assets/tiles/ShanghaiWarps1.tsx"/>
+ <layer id="11" name="Tile Layer 1" width="24" height="24" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,34,34,34,34,0,0,0,0,0,34,34,34,34,0,0,0,0,0,34,34,34,34,0,
+0,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,0,
+0,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,0,
+0,34,34,34,34,0,0,0,0,0,34,34,34,34,0,0,0,0,0,34,34,34,34,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,34,34,34,34,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="Object Layer 1">
+  <object id="52" gid="47" x="128" y="128" width="896" height="512"/>
+  <object id="53" name="ToCityNet2" type="Custom Warp" gid="5" x="368" y="368" width="61" height="32" visible="0">
+   <properties>
+    <property name="direction" value="Up Right"/>
+    <property name="warp_name" value="ToCampusSqr5"/>
+    <property name="warp_to" value="CityNet2"/>
+   </properties>
+  </object>
+  <object id="54" gid="60" x="360" y="360" width="74" height="39"/>
+ </objectgroup>
+</map>

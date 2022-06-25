@@ -1,0 +1,1 @@
+net_battle_server.exe -p 2500 --custom-emotes-path=/server/assets/emotes/Shanghai.png
