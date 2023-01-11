@@ -23,7 +23,7 @@
     <property name="Target Object" value="5"/>
    </properties>
   </object>
-  <object id="4" name="Kogasa.EXE" type="NPC" x="48" y="16">
+  <object id="4" name="Kogasa.EXE" type="NPC" x="64" y="32">
    <properties>
     <property name="Animation Name" value="KogasaEXE"/>
     <property name="Asset Name" value="KogasaEXE"/>
@@ -84,7 +84,7 @@
    </properties>
    <point/>
   </object>
-  <object id="18" name="Volcanoman.exe" type="NPC" x="80" y="16">
+  <object id="18" name="Volcanoman.exe" type="NPC" x="96" y="32">
    <properties>
     <property name="Animation Name" value="VolcanomanEXE"/>
     <property name="Asset Name" value="VolcanomanEXE"/>
