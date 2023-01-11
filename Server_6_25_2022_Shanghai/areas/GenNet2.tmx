@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.0" orientation="isometric" renderorder="right-down" width="29" height="35" tilewidth="64" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="11">
+<map version="1.8" tiledversion="1.8.6" orientation="isometric" renderorder="right-down" width="29" height="35" tilewidth="64" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="11">
  <properties>
   <property name="Background" value="custom"/>
   <property name="Background Animation" value="/server/assets/custom/backgrounds/Trees/BG.animation"/>
@@ -152,7 +152,7 @@
     <property name="Activation Radius" type="float" value="0.6"/>
     <property name="Arrival Animation" value="arrow_down_left_in"/>
     <property name="Leave Animation" value="arrow_down_left_out"/>
-    <property name="Target Area" value="default"/>
+    <property name="Target Area" value="GenNet1"/>
     <property name="Target Object" value="52"/>
    </properties>
    <point/>
