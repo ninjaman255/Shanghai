@@ -103,7 +103,7 @@
   <object id="20" name="No" type="Dialogue" x="112" y="-16">
    <properties>
     <property name="Dialogue Type" value="first"/>
-    <property name="Text 1" value="..."/>
+    <property name="Text 1" value="Fine another time then..."/>
    </properties>
    <point/>
   </object>
@@ -115,7 +115,7 @@
     <property name="Direction" value="Down Left"/>
     <property name="Next 1" type="object" value="19"/>
     <property name="Next 2" type="object" value="20"/>
-    <property name="Text 1" value="..."/>
+    <property name="Text 1" value="...I've been standing here all day... Staring at me will not going to accomplish anything. Cmon lets do this!"/>
    </properties>
    <point/>
   </object>
