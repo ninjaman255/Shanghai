@@ -4,3 +4,6 @@
 [submodule "Server_6_25_2022_Shanghai/scripts/ezlibs-scripts"]
 	path = Server_6_25_2022_Shanghai/scripts/ezlibs-scripts
 	url = https://github.com/Keristero/ezlibs-scripts
+[submodule "Server_6_25_2022_Shanghai/Scriptable-OpenNetBattle-Server"]
+	path = Server_6_25_2022_Shanghai/Scriptable-OpenNetBattle-Server
+	url = https://github.com/ArthurCose/Scriptable-OpenNetBattle-Server
