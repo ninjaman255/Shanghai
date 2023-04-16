@@ -25,8 +25,8 @@
   </object>
   <object id="4" name="Kogasa.EXE" type="NPC" x="64" y="32">
    <properties>
-    <property name="Animation Name" value="KogasaEXE"/>
-    <property name="Asset Name" value="KogasaEXE"/>
+    <property name="Animation Name" value="kogasa"/>
+    <property name="Asset Name" value="kogasa"/>
     <property name="Dialogue Type" value="question"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next 1" type="object" value="14"/>
@@ -83,8 +83,8 @@
   </object>
   <object id="18" name="Volcanoman.exe" type="NPC" x="96" y="32">
    <properties>
-    <property name="Animation Name" value="VolcanomanEXE"/>
-    <property name="Asset Name" value="VolcanomanEXE"/>
+    <property name="Animation Name" value="volcano"/>
+    <property name="Asset Name" value="volcano"/>
     <property name="Dialogue Type" value="question"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next 1" type="object" value="16"/>
@@ -109,8 +109,8 @@
   </object>
   <object id="21" name="Yuki.exe" type="NPC" x="128" y="32">
    <properties>
-    <property name="Animation Name" value="YukiEXE"/>
-    <property name="Asset Name" value="YukiEXE"/>
+    <property name="Animation Name" value="yuki"/>
+    <property name="Asset Name" value="yuki"/>
     <property name="Dialogue Type" value="question"/>
     <property name="Direction" value="Down Left"/>
     <property name="Next 1" type="object" value="19"/>
