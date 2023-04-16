@@ -1,0 +1,13 @@
+imagePath="E:\OBN\OpenNetBattleMyFork\Shanghai\Server_6_25_2022_Shanghai\assets\ezlibs-assets\eznpcs\sheet\YukiEXE.png"
+
+animation state="IDLE_DR"
+frame duration="0.005" x="0" y="0" w="19" h="44" originx="10" originy="43" flipx="0" flipy="0"
+
+animation state="IDLE_UL"
+frame duration="0.005" x="26" y="1" w="19" h="43" originx="11" originy="42" flipx="0" flipy="0"
+
+animation state="IDLE_DL"
+frame duration="0.005" x="0" y="0" w="19" h="44" originx="10" originy="43" flipx="1" flipy="0"
+
+animation state="IDLE_UR"
+frame duration="0.005" x="26" y="1" w="19" h="43" originx="11" originy="42" flipx="1" flipy="0"
