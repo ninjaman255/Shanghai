@@ -4,8 +4,8 @@
     },
     "advertisements":[
         {
-            "unique_server_id":"Genso_Network",
-            "name":"Genso Network",
+            "unique_server_id":"Gensou_Network",
+            "name":"Gensou Network",
             "description":"Recreation of the internet areas of Shanghai: Genoso Network, WIP",
             "tags":["pvp"],
             "address":"159.223.165.219:2500",
