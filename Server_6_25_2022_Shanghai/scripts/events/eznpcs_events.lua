@@ -51,7 +51,7 @@ end
 eznpcs.add_event(event4)
 
 local event5 = {
-    name="Hectia",
+    name="Yumeko",
     action=function (npc,player_id,dialogue,relay_object)
         return async(function()
         Net.initiate_encounter(player_id, "/server/assets/bosses/Yumeko.zip")
