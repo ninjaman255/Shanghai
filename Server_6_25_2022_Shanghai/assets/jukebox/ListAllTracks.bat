@@ -1,1 +1,0 @@
-for /r %%a in (tracks/*.ogg) do @echo %%~nxa >>TracksList.txt
