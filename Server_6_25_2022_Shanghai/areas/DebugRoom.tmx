@@ -168,7 +168,11 @@
   </object>
   <object id="27" gid="34" x="7.5" y="80.5" width="64" height="72">
    <properties>
+    <property name="Color" type="bool" value="true"/>
     <property name="Jukebox" type="bool" value="true"/>
+    <property name="b" type="int" value="220"/>
+    <property name="g" type="int" value="110"/>
+    <property name="r" type="int" value="125"/>
    </properties>
   </object>
  </objectgroup>
